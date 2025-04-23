@@ -1,0 +1,5 @@
+docker volume rm mysql_data_springboot
+docker volume rm postgresql_data_springboot
+
+docker volume create mysql_data_springboot
+docker volume create postgresql_data_springboot

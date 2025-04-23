@@ -1,0 +1,6 @@
+docker volume rm postgresql_db_admin_springboot
+docker volume rm mysql_db_admin_springboot
+
+docker volume create postgresql_db_admin_springboot
+docker volume create mysql_db_admin_springboot
+
